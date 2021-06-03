@@ -4,13 +4,15 @@ description: Porque objetos quando aquecidos emitem luz de diferentes cores?
 
 # Radiação de Corpos Aquecidos
 
+## Introdução
+
 Já existia no começo do século XIX, um entendimento geral a respeito dos mecanismos por trás do processos de emissão de luz e radiação infravermelha em corpos quando aquecidos.
 
 A temperatura de um objeto é uma medida do seu grau de agitação molecular, de forma que aquecer um corpo transferindo energia na forma de calor, significa aumentar a energia por grau de liberdade interno, incrementando o movimento desordenado de agitação dos seus constituintes microscópicos.
 
 Dessa forma, um corpo a uma temperatura $$T$$ acima do zero absoluto, devido ao movimento desordenado de seus átomos \(que nada mais são que padrões complicados de cargas elétricas mais elementares\), deve induzir a oscilação de cargas elétricas, e consequentemente, como prevê o eletromagnetismo clássico, emitir radiação eletromagnética.
 
-## Absorção de Radiação
+## 
 
 Existem basicamente três processos 
 
@@ -76,6 +78,8 @@ Que é a expressão para a lei de Stefan-Boltzmann.
 
 ## Lei de Rayleigh-Jeans
 
+### Radiação como Ondas Estacionárias
+
 Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(de lados $$L$$\) de paredes metálicas \(reflexivas\), devido a ausência de cargas e correntes elétricas no seu interior, as equações de Maxwell tomam a forma
 
 $$
@@ -87,4 +91,6 @@ Aplicando o rotacional em $$(iii)$$e $$(iv)$$  e desacoplando-as é possível re
 $$
 \begin{matrix} (i)\ \nabla \cdot\vec{E}=0 \ & \ (iii)\ \nabla^2 \vec{E}= -\frac{1}{c}\dfrac{\partial^2 \vec{E}}{\partial t^2} \\ (ii)\ \nabla \cdot\vec{B}=0 \ &\ (iv)\ \nabla^2 \vec{B}= -\frac{1}{c}\dfrac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
 $$
+
+que são equações de ondas, que satisfazem
 
