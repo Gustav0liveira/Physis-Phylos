@@ -25,7 +25,7 @@ Existem basicamente três processos
 A primeira conjectura quantitativa sobre os corpos negros foi feita em  1879 por _Joseph Stefan_, na forma
 
 $$
-j(T) = \sigma T^4
+u(T) = \sigma T^4
 $$
 
 onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia radiada por metro quadrado a uma dada temperatura $$T$$.
@@ -98,5 +98,5 @@ $$
 dN=\dfrac{8\pi\nu^2}{c^3}Vd\nu
 $$
 
-Considerando além disso a existência de duas possíveis direções de polarização
+Logo, a densidade volumétrica do número de modos de oscilação deve ser dada por $$d\eta=\dfrac{8\pi\nu^2}{c^3}d\nu$$.
 
