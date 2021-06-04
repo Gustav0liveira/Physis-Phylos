@@ -80,5 +80,23 @@ Que é a expressão para a lei de Stefan-Boltzmann.
 
 ### Radiação como Ondas Estacionárias
 
-Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), [é possível mostrar](apendices.md#onda-eletromagnetica-numa-cavidade), que a radiação se
+Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência 
+
+$$
+\begin{matrix} \nu^2=\left(\frac{c}{2L}\right)^2\left(l^2+m^2+n^2\right)=\left(\frac{c}{2L}\right)^2p^2 & &\text{com} &l,m,n=1,2,... \end{matrix}
+$$
+
+Logo, encontremos o número de modos normais de oscilação contando o número de pontos no espaço de $$p$$ num intervalo de frequências de $$\nu$$á $$\nu+d\nu$$na forma
+
+$$
+dN=\eta(p)dp=\left(\frac{1}{8}\right)4\pi p^2dp
+$$
+
+para $$\nu=\frac{c p}{2L} \implies d\nu=\frac{c}{2L}dp$$, temos que $$p^2dp=\left(\frac{2L\nu}{c}\right)^2\left(\frac{2L}{c}\nu\right)=\left(\frac{2L}{c}\right)^3\nu^2d\nu$$ e, portanto, $$dN=\frac{4\pi\nu^2}{c^3}Vd\nu.$$ Considerando além disso a existência de duas possíveis direções de polarização e $$L^3=V$$ , concluímos a contagem com
+
+$$
+dN=\dfrac{8\pi\nu^2}{c^3}Vd\nu
+$$
+
+Considerando além disso a existência de duas possíveis direções de polarização
 
