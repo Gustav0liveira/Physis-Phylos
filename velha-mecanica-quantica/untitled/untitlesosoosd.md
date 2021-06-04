@@ -108,6 +108,8 @@ A descrição estatística para a probabilidade de um sistema a uma temperatura 
  $$\rho=\dfrac{e^{-\frac{E}{k_B T}}}{\int e^{-\frac{E}{k_B T}}dqdp}$$ 
 
 Logo, para cada termo quadrático na expressão para energia do sistema, $$E=K+V=\frac{1}{2m}p^2+\frac{1}{2}k q^2$$ o valor médio da energia deve ser dado por
+
+$$\left<E\right>=\int E\rho(E,T)dqdp=\dfrac{\int E e^{-\frac{E}{k_B T}}dqdp}{\int e^{-\frac{E}{k_B T}}dqdp}=\dfrac{\int \left(\frac{1}{2m}p^2+\frac{1}{2}k q^2\right) e^{-\frac{\frac{1}{2m}p^2+\frac{1}{2}k q^2}{k_B T}}dqdp}{\int e^{-\frac{\frac{1}{2m}p^2+\frac{1}{2}k q^2}{k_B T}}dqdp}$$ 
 {% endhint %}
 
  temos que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
