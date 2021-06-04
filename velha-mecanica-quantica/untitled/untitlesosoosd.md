@@ -32,7 +32,7 @@ onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia rad
 
 Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de considerações termodinâmicas da radiação eletromagnética contida num caixa fechada com paredes reflexivas. 
 
-Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da forma $$u=cp_v$$. Logo
+Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação $$u=cp_v$$\([ver apêndice](apendices.md#densidades-de-energia-e-momento-eletromagnetico)\). Logo
 
 $$
 dp=p_vdV=p_vdldA=p_v(cdt)dA
@@ -78,7 +78,7 @@ Que é a expressão para a lei de Stefan-Boltzmann.
 
 ## Lei de Rayleigh-Jeans
 
-### Radiação como Ondas Estacionárias
+### Contando os Modos Normais de Oscilação
 
 Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência 
 
@@ -103,26 +103,30 @@ Logo, a densidade volumétrica do número de modos de oscilação deve ser dada 
 Como resultado do teorema da equipartição da energia, no qual, cada grau de liberdade interno do sistema, contribui com uma energia média $$\frac{1}{2}k_BT$$,
 
 {% hint style="info" %}
-A descrição estatística para a probabilidade de um sistema a uma temperatura constante $$T$$ ser encontrado com uma determinada energia $$E$$ é fornecida pela distribuição de Maxwell-Boltzmann dada por
+A descrição estatística para a probabilidade de um sistema a uma temperatura constante $$T$$ ser encontrado com uma determinada energia $$E$$ é fornecida pela distribuição de Maxwell-Boltzmann
 
  $$\rho=\dfrac{e^{-\frac{E}{k_B T}}}{\int e^{-\frac{E}{k_B T}}dqdp}$$ 
 
-Logo, para cada termo quadrático na expressão para energia do sistema, $$E=K+V=\frac{1}{2m}p^2+\frac{1}{2}k q^2$$ o valor médio da energia deve ser dado por
+Logo, para cada termo quadrático na expressão para energia do sistema, $$E=\alpha p^2$$ o valor médio da energia deve ser dado por
 
-$$\left<E\right>=\int E\rho(E,T)dqdp=\dfrac{\int E e^{-\frac{E}{k_B T}}dqdp}{\int e^{-\frac{E}{k_B T}}dqdp}=\dfrac{\int \left(\frac{1}{2m}p^2+\frac{1}{2}k q^2\right) e^{-\frac{\frac{1}{2m}p^2+\frac{1}{2}k q^2}{k_B T}}dqdp}{\int e^{-\frac{\frac{1}{2m}p^2+\frac{1}{2}k q^2}{k_B T}}dqdp}$$ 
+$$\left<E\right>=\int E\rho(E,T)dqdp=\dfrac{\int E e^{-\frac{E}{k_B T}}dqdp}{\int e^{-\frac{E}{k_B T}}dqdp}=\dfrac{\int \left(\alpha p^2\right) e^{-\frac{\alpha p^2}{k_B T}}dqdp}{\int e^{-\frac{\alpha p^2}{k_B T}}dqdp}=\frac{1}{2}k_BT$$
+
+onde $$\int \left(\alpha p^2\right) e^{-\frac{\alpha p^2}{k_B T}}dqdp=\frac{1}{2}k_B T\int  e^{-\frac{\alpha p^2}{k_B T}}dqdp$$ 
 {% endhint %}
 
- temos que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
+ Como é possível mostrar, a energia por modo de oscilação para o campo eletromagnético enclausurado na cavidade toma a forma $$E=\frac{1}{2m}P^2+\frac{1}{2}kQ^2$$ \([ver apêndice](apendices.md#energia-do-campo-eletromagnetico-em-uma-cavidade)\) toma a forma  que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
 
 $$
-\left<E\right>=\left<K\right>+\left<V\right>=k_BT
+\left<E\right>=\left<\frac{1}{2m}P^2\right>+\left<\frac{1}{2}kQ^2\right>=k_BT
 $$
 
-Assim, a densidade de energia da radiação para uma frequência entre $$\nu$$ para $$\nu+d\nu$$ deve ser dada por
+Assim, a densidade de energia por modo de oscilação da radiação para uma frequência entre $$\nu$$ para $$\nu+d\nu$$ deve ser dada por
 
 $$
 u(\nu,T)=\left<E\right>d\eta=\dfrac{8\pi\nu^2}{c^3}k_B Td\nu
 $$
 
-Que é o resultado clássico para a distribuição espectral da densidade de energia 
+Que é o resultado clássico para a distribuição espectral da densidade de energia.
+
+### A Catástrofe do Ultravioleta
 

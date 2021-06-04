@@ -1,5 +1,7 @@
 # Apêndices
 
+## Densidades de Energia e Momento Eletromagnético
+
 ## Onda Eletromagnética numa cavidade
 
 Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(de lados $$L$$\) de paredes metálicas \(reflexivas\), devido a ausência de cargas e correntes elétricas no seu interior, as equações de Maxwell tomam a forma
@@ -15,4 +17,6 @@ $$
 $$
 
 que são equações de ondas, que satisfazem
+
+## Energia do Campo Eletromagnético em uma Cavidade
 
