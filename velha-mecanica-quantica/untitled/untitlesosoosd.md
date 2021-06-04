@@ -83,7 +83,7 @@ Que é a expressão para a lei de Stefan-Boltzmann.
 Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência 
 
 $$
-\begin{matrix} \nu^2=\left(\frac{c}{2L}\right)^2\left(l^2+m^2+n^2\right)=\left(\frac{c}{2L}\right)^2p^2 & &\text{com} &l,m,n=1,2,... \end{matrix}
+\nu^2=\left(\frac{c}{2L}\right)^2\left(l^2+m^2+n^2\right)=\left(\frac{c}{2L}\right)^2p^2
 $$
 
 Logo, encontremos o número de modos normais de oscilação contando o número de pontos no espaço de $$p$$ num intervalo de frequências de $$\nu$$á $$\nu+d\nu$$na forma
@@ -99,4 +99,28 @@ dN=\dfrac{8\pi\nu^2}{c^3}Vd\nu
 $$
 
 Logo, a densidade volumétrica do número de modos de oscilação deve ser dada por $$d\eta=\dfrac{8\pi\nu^2}{c^3}d\nu$$.
+
+Como resultado do teorema da equipartição da energia, no qual, cada grau de liberdade interno do sistema, contribui com uma energia média $$\frac{1}{2}k_BT$$,
+
+{% hint style="info" %}
+A descrição estatística para a probabilidade de um sistema a uma temperatura constante $$T$$ ser encontrado com uma determinada energia $$E$$ é fornecida pela distribuição de Maxwell-Boltzmann dada por
+
+ $$\rho=\dfrac{e^{-\frac{E}{k_B T}}}{\int e^{-\frac{E}{k_B T}}dqdp}$$ 
+
+Logo, para cada termo quadrático na expressão para energia do sistema, $$E=K+V=\frac{1}{2m}p^2+\frac{1}{2}k q^2$$ o valor médio da energia deve ser dado por
+{% endhint %}
+
+ temos que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
+
+$$
+\left<E\right>=\left<K\right>+\left<V\right>=k_BT
+$$
+
+Assim, a densidade de energia da radiação para uma frequência entre $$\nu$$ para $$\nu+d\nu$$ deve ser dada por
+
+$$
+u(\nu,T)=\left<E\right>d\eta=\dfrac{8\pi\nu^2}{c^3}k_B Td\nu
+$$
+
+Que é o resultado clássico para a distribuição espectral da densidade de energia 
 
