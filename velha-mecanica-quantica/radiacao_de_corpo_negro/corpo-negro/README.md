@@ -74,6 +74,8 @@ $$\lambda_{max}=\dfrac{c}{T} \ \ \text{com} \ \ b=2{,}897\times10^{-3}mK$$
 
 ![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens_law.svg)
 
+### Invariantes adiabáticos
+
 A partir da [Lei de Stefan/Boltzmann ](./#lei-de-stefan-boltzmann)onde $$u(T)=\sigma T^4$$ e das considerações a respeito da pressão exercida pelo campo eletromagnético no seu interior da cavidade deduzida naquela discussão, dado por $$P=\frac{1}{3}u$$ , tem-se que
 
 $$
@@ -100,7 +102,7 @@ $$
 
 Que é o que chamamos de uma invariante adiabática, uma quantidade que mantém-se inalterada ao longo do processo que assumimos ser adiabático.
 
-Acontece, que da análise da radiação contida em uma cavidade, verifica-se que \([Apêndice](../apendices.md#onda-eletromagnetica-numa-cavidade) e [Análise da Lei de Rayleigh-Jeans](./#lei-de-rayleigh-jeans)\) 
+Acontece, que da análise da radiação contida em uma cavidade, verifica-se que \([Apêndice](../apendices.md#onda-eletromagnetica-numa-cavidade) e [Análise da Lei de Rayleigh-Jeans](./#lei-de-rayleigh-jeans)\) existe uma restrição dos possíveis valores das frequências 
 
 $$
 \left(\frac{2\nu L}{c}\right)^2=\left(l^2+m^2+n^2\right) \ \ \text{com}  \ \ l,m,n=1,2,3,...
@@ -124,7 +126,41 @@ $$
 b=\nu^3V=\nu^3\left(\frac{a}{T^3}\right)\implies \frac{\nu}{T}=\left(\frac{b}{a}\right)^{\frac{1}{3}}=c=cte
 $$
 
-Que é a Lei de Wien em termos
+Obtemos um terceiro invariante adiabático: $$\frac{\nu}{T}=c=cte$$ . 
+
+### Forma funcional de u\(T,v\)
+
+Seja
+
+$$
+u(T)=\int_0^\infty u(\nu,T)d\nu
+$$
+
+Para um processo na qual o sistema passa de uma temperatura $$T$$ inicial para uma outra $$T'$$ onde $$\dfrac{u(T)}{\int u(T,\nu)d\nu}=\dfrac{u(T')}{\int u(T',\nu')d\nu'}=1$$ , logo
+
+$$
+\int_0^\infty u(T',\nu') d\nu'=\frac{u(T')}{u(T)}\int_0^\infty u(T,\nu) d\nu
+$$
+
+Assim, a partir da [Lei de Stefan/Boltzmann](./#lei-de-stefan-boltzmann) onde $$u(T)=\sigma T^4$$ , temos que $$\int_0^\infty u(T,\nu) d\nu=\frac{T'^4}{T^4}\int_0^\infty u(T,'\nu') d\nu'$$, e, portanto, utilizando nossa terceira invariante adiabática $$\frac{\nu'}{T'}=\frac{\nu}{T}$$ com $$\nu'=\frac{T'}{T}\nu$$ e $$d\nu'=\frac{T'}{T}d\nu$$ 
+
+obtermos $$\int_0^\infty u(T',\frac{T'}{T}\nu) \frac{T'}{T}d\nu=\frac{T'^4}{T^4}\int_0^\infty u(T,\nu) d\nu$$. Sem perda de generalizada, fazendo $$T'=1$$, temos que $$u(T',\frac{T'}{T}\nu)=u(1,\frac{\nu}{T})=f(\frac{\nu}{T})$$e obtemos, portanto, que
+
+$$
+\int_0^\infty u(T,\nu)d\nu=\int_0^\infty T^3f\left(\frac{\nu}{T}\right)d\nu \implies u(T,\nu)=T^3f\left(\frac{\nu}{T}\right)
+$$
+
+Mas como $$\frac{\nu}{T}=c\implies T \propto \nu$$ , assim, obtemos como resultado que
+
+$$
+u(T,\nu)=\nu^3f\left(\frac{\nu}{T}\right)
+$$
+
+Que é a Lei de deslocamento de Wien numa versão mais modernizada descrevendo a forma funcional que a densidade de energia emitida por um corpo negro deve tomar. É surpreendente que a partir de poucas considerações termodinâmicas é extraordinário que possamos conseguir restringir a forma funcional para tal classe de funções. 
+
+### Lei de Deslocamento
+
+
 
 ## Lei de Rayleigh-Jeans
 
