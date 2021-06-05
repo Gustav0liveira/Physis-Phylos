@@ -74,7 +74,7 @@ O comprimento de onda máximo para curva da distribuição espectral da emissão
 $$\lambda_{max}=\dfrac{b}{T} \ \ \text{com} \ \ b=2{,}897\times10^{-3}mK$$ 
 {% endhint %}
 
-![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens_law.svg)
+![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../../.gitbook/assets/wiens_law.svg)
 
 ### Invariantes adiabáticos
 
