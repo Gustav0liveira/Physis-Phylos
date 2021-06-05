@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Radiação de Corpo Negro](README.md)
+* [Physica](README.md)
 
 ## Eletromagnetismo
 
