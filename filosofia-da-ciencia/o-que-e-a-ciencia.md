@@ -1,62 +1,45 @@
 # O que é a ciência?
 
+## **Introdução**
+
+A ciência é um empreendimento coletivo humano na forma de um projeto cognitivo, que tem como objetivo explicar e prever fenômenos naturais por meio de teorias científicas, um conjunto interligado de postulados, teoremas apoiados em .
+
 ## Valores Epistêmicos
 
 ### Precisão Empírica/Adequação Empírica \(Accuracy\)
 
-* Precisão Empírica/Adequação Empírica \(Accuracy\): A teoria reproduz resultados experimentais e observacionais disponíveis.
+* **Precisão Empírica/Adequação Empírica \(Accuracy\)**: A teoria reproduz resultados experimentais e observacionais disponíveis.
+  * **Precisão Qualitativa**: É precisa em descrever fenômenos observáveis \(Traço numa câmara de nuvens\)
+  * **Precisão Quantitativa**: É precisa em prever os valores numéricos a serem obtidos como resultados em experimentos ou observações.
 
-**Precisão Qualitativa: É precisa em descrever fenômenos observáveis \(Traço numa câmara de nuvens\)**  
+> Consequências dedutíveis a partir de uma teoria devem estar em acordo com experimentos e observações disponíveis.\[1\]
 
+> Uma teoria é empiricamente precisa quando o que diz a respeito do mundo é consistente com as observações.
 
-**Precisão Quantitativa: É precisa em prever os valores numéricos a serem obtidos como resultados em experimentos ou observações.**   
+### Consistência \(Consistency\):
 
+* **Consistência Interna:** A teoria possui componentes internos não contraditórios.
+* **Coerência Externa:** A teoria é compatível com o conjuntos de teorias aceitas 
 
-**Consequências dedutíveis a partir de uma teoria devem estar em acordo com experimentos e observações disponíveis.\[1\]**  
+### Testabilidade/Falsificacionismo:
 
+### Prolificidade ou Fertilidade/Originidade Preditiva \(Fruitfulness\)
 
-**Uma teoria é empiricamente precisa quando o que diz a respeito do mundo é consistente com as observações.**  
+A teoria é capaz de expandir o conteúdo de um programa de pesquisa quando deparado com anomalias por meio de predições originais não meramente acomodativas. \(não ad hoc\)
 
+> “Uma teoria deve ser fértil para novos achados em pesquisa: Deve revelar novos fenômenos ou relações previamente não notados entre aqueles conhecidos.” \[1\]
 
-**ii\) Consistência \(Consistency\):**   
+> Kuhn and McMullin construe fruitfulness as an ability of programs to develop by finding solutions to puzzles and anomalies. Nolan’s account, instead, focuses on the desirable development involved in novel confirmation and fulfilling certain virtues in the future. \[3\]
 
+> Let’s define fruitfulness as an ability of research programs to develop. A program develops when it enhances our knowledge or understanding of the world. In particular, fruitful programs develop by producing epistemic goods, such as novel hypotheses
 
-**Consistência Interna: A teoria possui componentes internos não contraditórios.**  
+### Abrangência/Universalidade \(Scope\):
 
+### Parsimônia \(Simplicidade\)
 
- **Coerência Externa: A teoria é compatível com o conjuntos de teorias aceitas**   
+A teoria não deve multiplicar entes não observáveis 
 
-
-**iii\) Testabilidade/Falsificacionismo:**   
-  
-
-
-**iv\) Prolificidade ou Fertilidade/ Não-Acomodatividade/ Originalidade Preditiva \(Fruitfulness\): A teoria é capaz de expandir o conteúdo de um programa de pesquisa quando deparado com anomalias por meio de predições originais não meramente acomodativas. \(não ad hoc\)**  
-
-
-**“Uma teoria deve ser fértil para novos achados em pesquisa: Deve revelar novos fenômenos ou relações previamente não notados entre aqueles conhecidos.” \[1\]**  
-
-
-**Kuhn and McMullin construe fruitfulness as an ability of programs to develop by finding solutions to puzzles and anomalies. Nolan’s account, instead, focuses on the desirable development involved in novel confirmation and fulfilling certain virtues in the future. \[3\]**  
-
-
-**Let’s define fruitfulness as an ability of research programs to develop. A program develops when it enhances our knowledge or understanding of the world. In particular, fruitful programs develop by producing epistemic goods, such as novel hypotheses**  
-  
-  
-  
-
-
-**vi\) Abrangência/ Universalidade  \(Scope\):**  
-
-
-**vi\) Parcimônia \(Simplicity\): A teoria deve explicar fenômenos complexos de forma simples.**  
-  
-  
-
-
-**:**  
-  
-
+###  ****
 
 **Valores Epistêmicos Mínimos: Adequação Empírica & Consistência Interna**
 
@@ -66,7 +49,7 @@
   
 
 
-**When theories \(or explanations or hypotheses\) instantiate these values, they are easier to work with. Simpler claims are easier to follow through to their implications. Broadly scoped claims have more arenas ðand more diverse areasÞ of application to see whether they hold.**  
+**When theories \(or explanations or hypotheses\) instantiate these values, they are easier to work with. Simpler claims are easier to follow through to their implications. Broadly scoped claims have more arenas and more diverse areas of application to see whether they hold.**  
 
 
 **Theories with potential explanatory power have a wide range of possible evidential relations. ðI say potential because if the theory has actual, known explanatory power, that implies that evidence is already gathered under its umbrella and this would bring us to the next category of values.**  
@@ -81,19 +64,25 @@
   
 
 
-**Claim - Afirmação**
+\*\*\*\*
 
-**Statement - Declaração**  
+## Dicionário
 
+Claim - Afirmação
 
-**Bibliografia**  
+Statement - Declaração  
+****
 
+  
+****
+
+## Bibliografia
 
 **\[1\] Thomas S. Kuhn - Objectivity, Value Judgment and Theory Choice.**
 
 **\[2\] McMullin, E. \(1976\). The Fertility of Theory and the Unit for Appraisal in Science.**
 
-## **\[3\]** [**Silvia Ivani**](https://link.springer.com/article/10.1007/s13194-018-0231-7#auth-Silvia-Ivani)  **- What we \(should\) talk about when we talk about fruitfulness**
+**\[3\]** [**Silvia Ivani**](https://link.springer.com/article/10.1007/s13194-018-0231-7#auth-Silvia-Ivani)  **- What we \(should\) talk about when we talk about fruitfulness**
 
 **\[4\] Schindler, S. - Theoretical Virtues in Science**  
 
