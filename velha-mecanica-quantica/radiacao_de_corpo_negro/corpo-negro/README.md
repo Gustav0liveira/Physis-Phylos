@@ -10,11 +10,13 @@ description: Porque objetos quando aquecidos emitem luz de diferentes cores?
 
 A primeira conjectura quantitativa sobre os corpos negros foi feita em  1879 por _Joseph Stefan_, na forma
 
-$$
-u(T) = \sigma T^4
-$$
+{% hint style="success" %}
+A potencia por unidade de área \(densidade de energia\) $$u(T)$$ emitida por um corpo negro é proporcional a quarta potência da sua temperatura $$T$$ 
+
+                                                                   $$u(T) = \sigma T^4$$ 
 
 onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia radiada por metro quadrado a uma dada temperatura $$T$$.
+{% endhint %}
 
 Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de considerações termodinâmicas da radiação eletromagnética contida num caixa fechada com paredes reflexivas. 
 
@@ -160,7 +162,11 @@ Que é a Lei de deslocamento de Wien numa versão mais modernizada descrevendo a
 
 ### Lei de Deslocamento
 
+A partir da última expressão derivada para a forma funcional da densidade espectral de energia emitida por um corpo negro é fácil verificar, extremizando a função na forma
 
+$$
+\frac{d}{dt}u(\nu,T)|_{\nu_{max}}=3\nu^2f+\frac{\nu^3}{T}\frac{df}{dt}=\nu^2\left[f\left(\frac{\nu_{max}}{T}\right)+\frac{\nu_{max}^3}{T}\frac{df}{dt}\left(\frac{\nu_{max}}{T}\right)\right]=0
+$$
 
 ## Lei de Rayleigh-Jeans
 
