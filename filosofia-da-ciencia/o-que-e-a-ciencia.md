@@ -6,6 +6,8 @@ A ciência é um empreendimento coletivo humano na forma de um projeto cognitivo
 
 ## Valores Epistêmicos
 
+Apesar de não existir um método científico universal, os praticantes das ciências são guiados intersubjetivamente por meio de valores que prescrevem os critérios para a escolha entre teorias.
+
 ### Precisão Empírica/Adequação Empírica \(Accuracy\)
 
 * **Precisão Empírica/Adequação Empírica \(Accuracy\)**: A teoria reproduz resultados experimentais e observacionais disponíveis.
