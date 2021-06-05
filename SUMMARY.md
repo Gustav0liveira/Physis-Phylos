@@ -18,3 +18,11 @@
 * [Untitled](corpo-negro/untitled/README.md)
   * [Yeahp boy](corpo-negro/untitled/yeahp-boy.md)
 
+## Eletromagnetismo
+
+* [Untitled](eletromagnetismo/untitled.md)
+
+## Filosofia da Ciência
+
+* [O que é a ciência?](filosofia-da-ciencia/o-que-e-a-ciencia.md)
+

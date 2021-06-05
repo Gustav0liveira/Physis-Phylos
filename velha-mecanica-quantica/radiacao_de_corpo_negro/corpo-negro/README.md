@@ -66,12 +66,12 @@ Que é a expressão para a lei de Stefan-Boltzmann.
 
 ## Lei do Deslocamento de Wien
 
-Outra relação quantitativa a respeito da radiação de um corpo negro foi primeiramente proposta teoricamente por Wilhem Wien em 1893 e afima que
+Outra relação quantitativa a respeito da radiação de um corpo negro foi primeiramente proposta teoricamente por Wilhelm Wien em 1893 e afirma que
 
 {% hint style="success" %}
 O comprimento de onda máximo para curva da distribuição espectral da emissão de um corpo negro é inversamente proporcional a sua temperatura
 
-$$\lambda_{max}=\dfrac{c}{T} \ \ \text{com} \ \ b=2{,}897\times10^{-3}mK$$ 
+$$\lambda_{max}=\dfrac{b}{T} \ \ \text{com} \ \ b=2{,}897\times10^{-3}mK$$ 
 {% endhint %}
 
 ![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens_law.svg)
@@ -158,7 +158,7 @@ $$
 u(T,\nu)=\nu^3f\left(\frac{\nu}{T}\right)
 $$
 
-Que é a Lei de deslocamento de Wien numa versão mais modernizada descrevendo a forma funcional que a densidade de energia emitida por um corpo negro deve tomar. É surpreendente que a partir de poucas considerações termodinâmicas é extraordinário que possamos conseguir restringir a forma funcional para tal classe de funções. 
+Que é a Lei de deslocamento de Wien numa versão mais modernizada descrevendo a forma funcional que a densidade de energia emitida por um corpo negro deve tomar. É surpreendente que a partir de poucas considerações termodinâmicas possamos conseguir restringir a forma funcional para tal classe de funções. 
 
 ### Lei de Deslocamento
 
@@ -167,6 +167,14 @@ A partir da última expressão derivada para a forma funcional da densidade espe
 $$
 \frac{d}{dt}u(\nu,T)|_{\nu_{max}}=3\nu^2f+\frac{\nu^3}{T}\frac{df}{dt}=\nu^2\left[f\left(\frac{\nu_{max}}{T}\right)+\frac{\nu_{max}^3}{T}\frac{df}{dt}\left(\frac{\nu_{max}}{T}\right)\right]=0
 $$
+
+De forma que devemos obter uma equação diferencial $$f\left(\frac{\nu_{max}}{T}\right)+\frac{\nu_{max}^3}{T}\frac{df}{dt}\left(\frac{\nu_{max}}{T}\right)=0$$, que independente da forma de sua solução, com as condições iniciais adequadas esperamos ter uma única solução mantendo $$\frac{\nu_{max}}{T}=c'=cte$$ , ou ainda, para $$\nu=\frac{c}{\lambda}, $$é equivalente á
+
+$$
+\lambda_{max}=\frac{b}{T}
+$$
+
+Que é a expressão desejada para o deslocamento de Wien. Como esperado, a constante $$b$$ deve ser estimada empiricamente, não sendo acessível através dos métodos termodinâmicos. 
 
 ## Lei de Rayleigh-Jeans
 
