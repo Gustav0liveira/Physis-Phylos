@@ -21,24 +21,24 @@ Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de consid
 Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação \([ver apêndice](../apendices.md#densidades-de-energia-e-momento-eletromagnetico)\).
 
 {% tabs %}
-{% tab title="1.Fórmula" %}
-$$
-u=cp_v
-$$
+{% tab title="1 - Fórmula" %}
+                                                                         $$\large{u=cp_v}$$ 
 {% endtab %}
 
-{% tab title="2.Demonstração \(Clique Aqui\)" %}
-Sejam as equações de Maxwell
+{% tab title="2 - Demonstração \(Clique Aqui\)" %}
+Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(de lados $$L$$\) de paredes metálicas \(reflexivas\), devido a ausência de cargas e correntes elétricas no seu interior, as equações de Maxwell tomam a forma
 
 $$
-\vec{\nabla}\cdot\vec{E}=\frac{\rho}{\epsilon_0}
+\begin{matrix} (i)\ \nabla \cdot\vec{E}=0 \ & \ (iii)\ \nabla \times\vec{E}= -\dfrac{\partial \vec{B}}{\partial t} \\ (ii)\ \nabla \cdot\vec{B}=0 \ &\ (iv)\ \nabla \times\vec{B}=\mu_0\epsilon_0\dfrac{\partial \vec{E}}{\partial t}\end{matrix}
 $$
 
-Considerando, entretamto, que 
+Aplicando o rotacional em $$(iii)$$e $$(iv)$$  e desacoplando-as é possível reduzir as equações acima em
 
-Temos outra forma de expressão
+$$
+\begin{matrix} (i)\ \nabla \cdot\vec{E}=0 \ & \ (iii)\ \nabla^2 \vec{E}= -\frac{1}{c}\dfrac{\partial^2 \vec{E}}{\partial t^2} \\ (ii)\ \nabla \cdot\vec{B}=0 \ &\ (iv)\ \nabla^2 \vec{B}= -\frac{1}{c}\dfrac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
+$$
 
-Que pode
+que são equações de ondas, que satisfazem
 {% endtab %}
 {% endtabs %}
 
