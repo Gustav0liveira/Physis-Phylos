@@ -4,9 +4,7 @@
 
 {% tabs %}
 {% tab title="" %}
-$$
-\vec{F}=m\vec{a}
-$$
+                                                                                 $$\vec{F}=m\vec{a}$$ 
 {% endtab %}
 
 {% tab title="Demonstração \(Clique Aqui\)" %}
