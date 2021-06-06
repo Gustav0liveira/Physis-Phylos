@@ -22,27 +22,9 @@ Imaginando um série de ondas planas monocromáticas contidas no interior do rec
 
 {% tabs %}
 {% tab title="Fórmula" %}
-                                                                           $$u=cp_v$$ 
-
-mais coisas
-
-logo
-
-temos
-
-que
-
-outra
-
-coisa
-
-para
-
-husushushhsuhsuhsuhsuhsuhsuhsuhsshusushus
-
-sshuhsuhsushushhsuhsuhsusuhsuhsuhsuhsuhsushushuhsuhsu
-
-ibaihodbsahdbahdbhadbslabdhlsbdhsabdsabdjsabbALBSADB
+$$
+u=cp_v
+$$
 {% endtab %}
 
 {% tab title="Demonstração \(Clique Aqui\)" %}
