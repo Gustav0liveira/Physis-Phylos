@@ -21,13 +21,13 @@ Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de consid
 Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação \([ver apêndice](../apendices.md#densidades-de-energia-e-momento-eletromagnetico)\).
 
 {% tabs %}
-{% tab title="Fórmula" %}
+{% tab title="1.Fórmula" %}
 $$
 u=cp_v
 $$
 {% endtab %}
 
-{% tab title="Demonstração \(Clique Aqui\)" %}
+{% tab title="2.Demonstração \(Clique Aqui\)" %}
 Sejam as equações de Maxwell
 
 $$
