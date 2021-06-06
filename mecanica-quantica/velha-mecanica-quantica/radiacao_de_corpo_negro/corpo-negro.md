@@ -112,7 +112,7 @@ $$
 3\left(\dfrac{\partial P}{\partial T}\right)_V=3\left(\dfrac{\partial S}{\partial V}\right)_T=4\sigma T^3
 $$
 
-Logo, deduz-se que $$dS=4\sigma T^2 VdT+\frac{4}{3}\sigma T^3dV$$ , de forma que, para um processo adiabático \( $$dS=0$$ \), obtém-se
+Logo, deduz-se que $$dS=d\left(\frac{4}{3}\sigma T^3 V\right)=4\sigma T^2 VdT+\frac{4}{3}\sigma T^3dV$$ , de forma que, para um processo adiabático \( $$dS=0$$ \), obtém-se
 
 $$
 4\sigma T^2\left(VdT+\frac{1}{3}TdV\right)=0 \implies\frac{dT}{T}=-\frac{1}{3}\frac{dV}{V}
