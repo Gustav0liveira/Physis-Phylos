@@ -3,6 +3,10 @@
 ## Electric Current
 
 {% tabs %}
+{% tab title="Formula" %}
+                                                                               $$\vec{F}=m\vec{a}$$ 
+{% endtab %}
+
 {% tab title="Fórmula" %}
                                                                                  $$\vec{F}=m\vec{a}$$ 
 {% endtab %}
