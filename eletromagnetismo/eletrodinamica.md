@@ -3,7 +3,7 @@
 ## Electric Current
 
 {% tabs %}
-{% tab title="" %}
+{% tab title="Fórmula" %}
                                                                                  $$\vec{F}=m\vec{a}$$ 
 {% endtab %}
 
@@ -17,6 +17,10 @@ $$
 $$
 
 Okay, vamos lá, vamos lá
+
+talvez eu não tenha explicitado
+
+E outra vez
 {% endtab %}
 {% endtabs %}
 
