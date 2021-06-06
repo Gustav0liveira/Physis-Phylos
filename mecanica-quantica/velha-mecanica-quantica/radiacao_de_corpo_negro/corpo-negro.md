@@ -11,7 +11,7 @@ A primeira conjectura quantitativa sobre os corpos negros foi feita em 1879 por 
 {% hint style="success" %}
 A potencia por unidade de área \(densidade de energia\) $$u(T)$$ emitida por um corpo negro é proporcional a quarta potência da sua temperatura 
 
-                                                                     $$u(T)=\sigma T^4$$ 
+                                                                     $$\large{u(T)=\sigma T^4}$$ 
 
 onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia radiada por metro quadrado a uma dada temperatura $$T$$.
 {% endhint %}

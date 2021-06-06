@@ -2,12 +2,6 @@
 
 * [Physica](README.md)
 
-## Eletromagnetismo
-
-* [Eletroestática](eletromagnetismo/untitled.md)
-* [Magnetostática](eletromagnetismo/magnetostatica.md)
-* [Eletrodinâmica](eletromagnetismo/eletrodinamica.md)
-
 ## Mecânica Quântica
 
 * [Velha Mecânica Quântica](mecanica-quantica/velha-mecanica-quantica/README.md)
@@ -19,6 +13,12 @@
 * [Mecânica Ondulatória](mecanica-quantica/mecanica-ondulatoria/README.md)
   * [Untitled](mecanica-quantica/mecanica-ondulatoria/untitled.md)
 * [Teoria Quântica de Campos](mecanica-quantica/teoria-quantica-de-campos.md)
+
+## Eletromagnetismo
+
+* [Eletroestática](eletromagnetismo/untitled.md)
+* [Magnetostática](eletromagnetismo/magnetostatica.md)
+* [Eletrodinâmica](eletromagnetismo/eletrodinamica.md)
 
 ## Filosofia da Ciência
 
