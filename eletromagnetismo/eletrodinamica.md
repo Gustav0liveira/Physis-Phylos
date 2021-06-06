@@ -1,18 +1,20 @@
 # Eletrodinâmica
 
-{ "plugins": [ "other-plugin", "collapse" ] }
+## Electric Current
 
-{% collapse title="my list" %}
- 
-* list 1
-* list 2
-* list 3
-    * list 3.1
-    
-{% endcollapse %}
+{% tabs %}
+{% tab title="Prova Matemática" %}
+## Logo
 
-{% collapse title="my list", process=false %}
- 
-<h1>hello</h1>
-    
-{% endcollapse %}
+$$
+\vec{F}=m\vec{a}
+$$
+
+Vamos lá
+
+temos
+{% endtab %}
+{% endtabs %}
+
+{ "plugins": \[ "other-plugin", "collapse" \] }
+

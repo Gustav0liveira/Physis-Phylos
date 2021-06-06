@@ -16,8 +16,8 @@ A parede interna como um sistema macroscópico, é composto a partir de um grand
 
 Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
 
-$$ 
--\frac{2e^2}{3c^3} \dot{a} 
+$$
+-\frac{2e^2}{3c^3} \dot{a}
 $$
 
 também chamada de força de Abraham-Lorentz, que é a força experienciada por partículas pontuais eletricamente carregadas quando aceleradadas.
@@ -50,22 +50,21 @@ $$
 
 Seja a expressão para a energia de um oscilador individual:
 
-{% include important.html content="$u = \frac{1}{2}m\omega\_0^2 A^2$" %} {% include note.html content=" Seja a energia de um oscilador harmônico $$ u= \frac{1}{2}m\dot{x}^2+\frac{1}{2}m\omega\_0^2 x^2 $$ para uma solucção da forma $x\(t\)=A\cos\(\omega\_0t+\phi\)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se $$ u =\frac{1}{2}m\left\[\left\(-A\omega\_0\sin\(\omega\_0t+\phi\)\right\)^2+\frac{1}{2}m\omega\_0 \left\(A\cos\(\omega\_0t+\phi\)\right\)^2\right\] $$ $$ =\frac{1}{2}mA^2\omega\_0^2\left\(\sin^2\(\omega\_0t+\phi\)+\cos^2\(\omega\_0t+\phi\)\right\) =\frac{1}{2}m\omega\_0^2 A^2$$ " %}
-
 Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
 
-$$ 
+$$
 u =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{m^2\left\(\(\omega\_0^2-\omega^2\)^2-\left\(\frac{\omega\gamma}{m}\right\)^2\right\)} =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{m^2\(\omega\_0^2-\omega^2\)^2-\left\(\omega\gamma\right\)^2}
 $$
 
-Para valores de frequência $\omega \approx \omega_0$, temos que $\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$
+Para valores de frequência $\omega \approx \omega\_0$, temos que $\omega\_0^2-\omega^2 = \(\omega\_0 - \omega\)\(\omega\_0 + \omega\) \approx 2 \omega\_0\(\omega\_0 - \omega\)$
 
-$$ u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{4m^2\omega_0^2(\omega_0-\omega)^2-\left(\omega_0\gamma\right)^2} =\frac{1}{8m}\frac{e^2E^2}{(\omega_0-\omega)^2-\left(\frac{\gamma}{2m}\right)^2}.
+$$ u =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{4m^2\omega\_0^2\(\omega\_0-\omega\)^2-\left\(\omega\_0\gamma\right\)^2} =\frac{1}{8m}\frac{e^2E^2}{\(\omega\_0-\omega\)^2-\left\(\frac{\gamma}{2m}\right\)^2}.
+
 $$
-
 Mas como discutido anteriormente, no interior da cavidade temos uma superposição de ondas planas de todas as frequências possíveis, de forma para encontrar a expressão para energia dos pequenos osciladores da parede, é necessário realizar uma soma contínua de u em todos os valores possíveis de $\omega$
 
-$$u_{total} =\int_{-\infty}^{\infty}$$
+$$u_{total} =\int_{-\infty}^{\infty}
+$$
 
 Como a equação se refere apenas ao campo elétrico que oscila de forma estacionária unidimensionalmente. Para a cavidade como um todo, a relação entre a energia total do corpo negro e o campo elétrico é dado por três vezes essa forma, ou ainda
 
