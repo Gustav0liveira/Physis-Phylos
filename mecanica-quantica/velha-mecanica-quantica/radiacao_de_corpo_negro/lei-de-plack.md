@@ -16,7 +16,9 @@ A parede interna como um sistema macroscópico, é composto a partir de um grand
 
 Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
 
-$$-\frac{2e^2}{3c^3} \dot{a}$$
+$$ 
+-\frac{2e^2}{3c^3} \dot{a} 
+$$
 
 também chamada de força de Abraham-Lorentz, que é a força experienciada por partículas pontuais eletricamente carregadas quando aceleradadas.
 
@@ -40,7 +42,9 @@ onde $\gamma = \frac{2e^2}{3c^3}$.
 
 Como a cavidade providencia as condições de um sistema isolado, tal comportamento se extende até sistema atingir uma situação de equilíbrio em que a taxa de emissão de energia por parte desses osciladores microscópicos é a mesma que a taxa de absorção. Logo, o sistema deve a longo prazo exibir o comportamento não-transiente, que é a parte real da solução particular
 
-$$x(t) =\left(\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t).$$
+$$
+x(t) =\left(\frac{eE}{m\sqrt{(\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2}}\right)\cos(\omega t) =A\cos(\omega t).
+$$
 
 &lt;/details&gt;
 
@@ -50,9 +54,10 @@ Seja a expressão para a energia de um oscilador individual:
 
 Temos da amplitude obtida em nosso modelo, que a energia indivual de tais osciladores pode ser expressa na forma
 
-$$ u =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{m^2\left\(\(\omega\_0^2-\omega^2\)^2-\left\(\frac{\omega\gamma}{m}\right\)^2\right\)} =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{m^2\(\omega\_0^2-\omega^2\)^2-\left\(\omega\gamma\right\)^2}
-
+$$ 
+u =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{m^2\left\(\(\omega\_0^2-\omega^2\)^2-\left\(\frac{\omega\gamma}{m}\right\)^2\right\)} =\frac{1}{2}m\omega\_0^2\frac{e^2E^2}{m^2\(\omega\_0^2-\omega^2\)^2-\left\(\omega\gamma\right\)^2}
 $$
+
 Para valores de frequência $\omega \approx \omega_0$, temos que $\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$
 
 $$ u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{4m^2\omega_0^2(\omega_0-\omega)^2-\left(\omega_0\gamma\right)^2} =\frac{1}{8m}\frac{e^2E^2}{(\omega_0-\omega)^2-\left(\frac{\gamma}{2m}\right)^2}.
