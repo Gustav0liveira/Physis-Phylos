@@ -8,22 +8,6 @@ description: Porque objetos quando aquecidos emitem luz de diferentes cores?
 
 ## Lei de Stefan-Boltzmann
 
-<details>
-  <summary>{% include important.html content="$u = \frac{1}{2}m\omega_0^2 A^2$" %} </summary>
-  {% include note.html content="
-   Seja a energia de um oscilador harmônico
-
-   $$ u= \frac{1}{2}m\dot{x}^2+\frac{1}{2}m\omega_0^2 x^2 $$ 
-
-   para uma solucção da forma $x(t)=A\cos(\omega_0t+\phi)$ onde $A$ é a amplitude de oscilação, substituindo-a na expressão acima, obtém-se
-
-   $$ u =\frac{1}{2}m\left[\left(-A\omega_0\sin(\omega_0t+\phi)\right)^2+\frac{1}{2}m\omega_0 \left(A\cos(\omega_0t+\phi)\right)^2\right]  $$ 
-   
-   $$ =\frac{1}{2}mA^2\omega_0^2\left(\sin^2(\omega_0t+\phi)+\cos^2(\omega_0t+\phi)\right) =\frac{1}{2}m\omega_0^2 A^2$$
-  " %}
-</details>
-
-
 A primeira conjectura quantitativa sobre os corpos negros foi feita em  1879 por _Joseph Stefan_, na forma
 
 {% hint style="success" %}
