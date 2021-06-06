@@ -1,2 +1,0 @@
-# Lei de Stefan/Bolstzmann
-

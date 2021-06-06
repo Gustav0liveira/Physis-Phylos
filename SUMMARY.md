@@ -12,8 +12,7 @@
 
 * [Velha Mecânica Quântica](mecanica-quantica/velha-mecanica-quantica/README.md)
   * [Radiação de Corpo Negro](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/README.md)
-    * [Corpo Negro](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/corpo-negro/README.md)
-      * [Lei de Stefan/Bolstzmann](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/corpo-negro/lei-de-stefan-bolstzmann.md)
+    * [Corpo Negro](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/corpo-negro.md)
     * [Lei de Plack](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/lei-de-plack.md)
     * [Efeito Fotoelétrico e o Quanta da Luz](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/efeito-fotoeletrico-e-o-quanta-da-luz.md)
     * [Apêndices](mecanica-quantica/velha-mecanica-quantica/radiacao_de_corpo_negro/apendices.md)

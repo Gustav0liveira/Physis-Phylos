@@ -18,7 +18,7 @@ onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia rad
 
 Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de considerações termodinâmicas da radiação eletromagnética contida num caixa fechada com paredes reflexivas.
 
-Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação \([ver apêndice](../apendices.md#densidades-de-energia-e-momento-eletromagnetico)\).
+Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação \([ver apêndice](apendices.md#densidades-de-energia-e-momento-eletromagnetico)\).
 
 {% tabs %}
 {% tab title="1 - Fórmula" %}
@@ -96,11 +96,11 @@ O comprimento de onda máximo para curva da distribuição espectral da emissão
 $$\lambda_{max}=\dfrac{b}{T} \ \ \text{com} \ \ b=2{,}897\times10^{-3}mK$$
 {% endhint %}
 
-![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../../.gitbook/assets/wiens_law.svg)
+![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens_law.svg)
 
 ### Invariantes adiabáticos
 
-A partir da [Lei de Stefan/Boltzmann ](./#lei-de-stefan-boltzmann)onde $$u(T)=\sigma T^4$$ e das considerações a respeito da pressão exercida pelo campo eletromagnético no seu interior da cavidade deduzida naquela discussão, dado por $$P=\frac{1}{3}u$$ , tem-se que
+A partir da [Lei de Stefan/Boltzmann ](corpo-negro.md#lei-de-stefan-boltzmann)onde $$u(T)=\sigma T^4$$ e das considerações a respeito da pressão exercida pelo campo eletromagnético no seu interior da cavidade deduzida naquela discussão, dado por $$P=\frac{1}{3}u$$ , tem-se que
 
 $$
 3P=u(T)=\sigma T^4
@@ -126,7 +126,7 @@ $$
 
 Que é o que chamamos de uma invariante adiabática, uma quantidade que mantém-se inalterada ao longo do processo que assumimos ser adiabático.
 
-Acontece, que da análise da radiação contida em uma cavidade, verifica-se que \([Apêndice](../apendices.md#onda-eletromagnetica-numa-cavidade) e [Análise da Lei de Rayleigh-Jeans](./#lei-de-rayleigh-jeans)\) existe uma restrição dos possíveis valores das frequências
+Acontece, que da análise da radiação contida em uma cavidade, verifica-se que \([Apêndice](apendices.md#onda-eletromagnetica-numa-cavidade) e [Análise da Lei de Rayleigh-Jeans](corpo-negro.md#lei-de-rayleigh-jeans)\) existe uma restrição dos possíveis valores das frequências
 
 $$
 \left(\frac{2\nu L}{c}\right)^2=\left(l^2+m^2+n^2\right) \ \ \text{com}  \ \ l,m,n=1,2,3,...
@@ -166,7 +166,7 @@ $$
 \int_0^\infty u(T',\nu') d\nu'=\frac{u(T')}{u(T)}\int_0^\infty u(T,\nu) d\nu
 $$
 
-Assim, a partir da [Lei de Stefan/Boltzmann](./#lei-de-stefan-boltzmann) onde $$u(T)=\sigma T^4$$ , temos que $$\int_0^\infty u(T,\nu) d\nu=\frac{T'^4}{T^4}\int_0^\infty u(T,'\nu') d\nu'$$, e, portanto, utilizando nossa terceira invariante adiabática $$\frac{\nu'}{T'}=\frac{\nu}{T}$$ com $$\nu'=\frac{T'}{T}\nu$$ e $$d\nu'=\frac{T'}{T}d\nu$$
+Assim, a partir da [Lei de Stefan/Boltzmann](corpo-negro.md#lei-de-stefan-boltzmann) onde $$u(T)=\sigma T^4$$ , temos que $$\int_0^\infty u(T,\nu) d\nu=\frac{T'^4}{T^4}\int_0^\infty u(T,'\nu') d\nu'$$, e, portanto, utilizando nossa terceira invariante adiabática $$\frac{\nu'}{T'}=\frac{\nu}{T}$$ com $$\nu'=\frac{T'}{T}\nu$$ e $$d\nu'=\frac{T'}{T}d\nu$$
 
 obtermos $$\int_0^\infty u(T',\frac{T'}{T}\nu) \frac{T'}{T}d\nu=\frac{T'^4}{T^4}\int_0^\infty u(T,\nu) d\nu$$. Sem perda de generalizada, fazendo $$T'=1$$, temos que $$u(T',\frac{T'}{T}\nu)=u(1,\frac{\nu}{T})=f(\frac{\nu}{T})$$e obtemos, portanto, que
 
@@ -202,7 +202,7 @@ Que é a expressão desejada para o deslocamento de Wien. Como esperado, a const
 
 ### Contando os Modos Normais de Oscilação
 
-Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](../apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
+Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
 
 $$
 \nu^2=\left(\frac{c}{2L}\right)^2\left(l^2+m^2+n^2\right)=\left(\frac{c}{2L}\right)^2p^2
@@ -236,7 +236,7 @@ $$\left<E\right>=\int E\rho(E,T)dqdp=\dfrac{\int E e^{-\frac{E}{k_B T}}dqdp}{\in
 onde $$\int \left(\alpha p^2\right) e^{-\frac{\alpha p^2}{k_B T}}dqdp=\frac{1}{2}k_B T\int e^{-\frac{\alpha p^2}{k_B T}}dqdp$$
 {% endhint %}
 
-Como é possível mostrar, a energia por modo de oscilação para o campo eletromagnético enclausurado na cavidade toma a forma $$E=\frac{1}{2m}P^2+\frac{1}{2}kQ^2$$ \([ver apêndice](../apendices.md#energia-do-campo-eletromagnetico-em-uma-cavidade)\) toma a forma que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
+Como é possível mostrar, a energia por modo de oscilação para o campo eletromagnético enclausurado na cavidade toma a forma $$E=\frac{1}{2m}P^2+\frac{1}{2}kQ^2$$ \([ver apêndice](apendices.md#energia-do-campo-eletromagnetico-em-uma-cavidade)\) toma a forma que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
 
 $$
 \left<E\right>=\left<\frac{1}{2m}P^2\right>+\left<\frac{1}{2}kQ^2\right>=k_BT
