@@ -18,7 +18,29 @@ onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia rad
 
 Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de considerações termodinâmicas da radiação eletromagnética contida num caixa fechada com paredes reflexivas.
 
-Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação $$u=cp_v$$\([ver apêndice](../apendices.md#densidades-de-energia-e-momento-eletromagnetico)\). Logo
+Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação \([ver apêndice](../apendices.md#densidades-de-energia-e-momento-eletromagnetico)\).
+
+{% tabs %}
+{% tab title="Fórmula" %}
+                                                                           $$u=cp_v$$ 
+{% endtab %}
+
+{% tab title="Demonstração \(Clique Aqui\)" %}
+Sejam as equações de Maxwell
+
+$$
+\vec{\nabla}\cdot\vec{E}=\frac{\rho}{\epsilon_0}
+$$
+
+Considerando, entretamto, que 
+
+Temos outra forma de expressão
+
+Que pode
+{% endtab %}
+{% endtabs %}
+
+temos que
 
 $$
 dp=p_vdV=p_vdldA=p_v(cdt)dA
