@@ -121,7 +121,7 @@ Entretanto, ainda no mesmo ano, em 1900. Novos experimentos mostravam que para b
 Significando que para baixas frequências a radiação da energia dos osciladores satisfazem a equipartição de energia $U\(T\)=\kappa\_B T$, de modo que:
 
 $$
-S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}
+\begin{equation} \label{eq10}  S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2U}{\partial U^2}=-\dfrac{\kappa_B}{U^2} \end{equation}
 $$
 
 Assim, com \(\ref{eq10}\) e \(\ref{eq11}\) é possível condensar os resultados na forma
