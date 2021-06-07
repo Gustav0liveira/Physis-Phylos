@@ -8,7 +8,7 @@ description: >-
 
 ## Corpo Negro
 
-### Corpo negro como uma cavidade
+### Formulação do Problema
 
 Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior.
 
@@ -121,7 +121,7 @@ Entretanto, ainda no mesmo ano, em 1900. Novos experimentos mostravam que para b
 Significando que para baixas frequências a radiação da energia dos osciladores satisfazem a equipartição de energia $U\(T\)=\kappa\_B T$, de modo que:
 
 $$
-\begin{equation} \label{eq10}  S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2U}{\partial U^2}=-\dfrac{\kappa_B}{U^2} \end{equation}
+S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}
 $$
 
 Assim, com \(\ref{eq10}\) e \(\ref{eq11}\) é possível condensar os resultados na forma
