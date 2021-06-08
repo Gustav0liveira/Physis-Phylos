@@ -12,23 +12,23 @@ description: >-
 
 Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior.
 
-A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata deste último, sob a ação de uma força restauradora $$-m\omega_0^2 x$$ \(em primeira ordem\) devido as forças internas de coesão.
+A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata destes últimos, sob a ação de uma força restauradora $$-m\omega_0^2 x$$ \(em primeira ordem\) devido as forças internas de coesão.
 
-Aquecendo a configuração a uma temperatura constante $T$, conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
+Aquecendo a configuração a uma temperatura constante $$T$$ , conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa
 
 $$
--\frac{2e^2}{3c^3} \dot{a}
+F_{dis}=-\frac{2e^2}{3c^3} \dot{a}
 $$
 
-também chamada de força de Abraham-Lorentz, que é a força experienciada por partículas pontuais eletricamente carregadas quando aceleradadas.
+também chamada de força de Abraham-Lorentz, que é a força experienciada por partículas pontuais eletricamente carregadas quando aceleradas.
 
-Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $\omega $ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica $eE\cos\(\omega t\)$. Tais elétrons, por estarem sob ação de uma força restauradora de frequência natural de oscilação $\omega\_0$, quando forçados a oscilar na frequência das ondas planas $\omega$ devem responder com a emissão de radiação na mesma frequência, e portanto, o termo dissipativo pode ser simplificado para a forma:
+Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $$\omega $$ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica $$eE\cos(\omega t).$$Tais elétrons, por estarem sob ação de uma força restauradora de frequência natural de oscilação $$\omega_0$$, quando forçados a oscilar na frequência das ondas planas $$\omega$$ devem responder com a emissão de radiação na mesma frequência, e portanto, para $$x=A\cos \omega t, \implies a=-\omega^2x,$$ o termo dissipativo pode assim ser simplificado para a forma:
 
 $$
 F_{dis}=-\frac{2e^2}{3c^3}\left(-\omega^2 \dot{x}\right)=\frac{2e^2}{3c^3}\omega^2\dot{x}
 $$
 
-Assim, individualmente, os elétrons na parede devem se comportar como pequenos osciladores forçados pelo campo elétrico e amortecidos pela emissão de radiação na forma da equação diferencial ordinária não-homegênea
+Assim, individualmente, os elétrons na parede devem se comportar como pequenos osciladores forçados pelo campo elétrico e amortecidos pela emissão de radiação na forma da equação diferencial ordinária não-homogênea
 
 $$
 m\ddot{x} -\frac{2e^2}{3c^3}\omega^2\dot{x} + m\omega_0^2x = eE\cos(\omega t),
@@ -53,7 +53,7 @@ Seja a expressão para a energia de um oscilador individual:
 Temos da amplitude obtida em nosso modelo, que a energia individual de tais osciladores pode ser expressa na forma
 
 $$
-u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2\left((\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2\right)} =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2\omega_0^2-\omega^2)^2-\left(\omega\gamma\right)^2}
+u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2\left((\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2\right)} =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\omega\gamma\right)^2}
 $$
 
 Para valores de frequência $$\omega \approx \omega_0$$ , temos que $$\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$$ 
@@ -102,7 +102,17 @@ $$
 U(\nu,t)=\dfrac{\alpha c^3}{8\pi}\nu \exp{\left(-\dfrac{\beta \nu}{T}\right)}
 $$
 
-Que são os ingredientes necessários para obter a expressão para a entropia dos osciladores que descrevem a radiação de um corpo negro a altas frequências. Onde,
+Que são os ingredientes necessários para obter a expressão para a entropia dos osciladores que descrevem a radiação de um corpo negro a altas frequências, dados por,
+
+{% tabs %}
+{% tab title="1 - Fórmula" %}
+$$
+\dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}.
+$$
+{% endtab %}
+
+{% tab title="2 - Demonstração \(Clique Aqui\)" %}
+Seja
 
 $$
 \begin{matrix} S=\displaystyle \int{\dfrac{dU}{T}} & ~com~~~dU=\dfrac{\alpha c^3 \beta \nu^2}{8\pi T^2}\exp{\left(-\dfrac{\beta \nu}{T}\right)} dT \end{matrix}
@@ -125,19 +135,21 @@ Permitindo Planck encontrar
 $$
 \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}.
 $$
+{% endtab %}
+{% endtabs %}
 
 Entretanto, ainda no mesmo ano, em 1900. Novos experimentos mostravam que para baixas frequências a intensidade da radiação dependia de $$\nu^2$$ e não de $$\nu^3$$ como na expressão de Wiens. E ainda, a expressão para baixas frequências era proporcional a temperatura da forma $$\rho (\nu,T)\propto\nu^2 T \implies U(T) \propto T$$ .
 
 Significando que para baixas frequências a radiação da energia dos osciladores satisfazem a equipartição de energia $$U(T)=\kappa_B T$$ , de modo que:
 
 $$
-S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2U}{\partial U^2}=-\dfrac{\kappa_B}{U^2}
+S=\int \dfrac{dU}{T}=\kappa_B\int\dfrac{dT}{T}=\kappa_B\ln{T}=\kappa_B\ln{\dfrac{U}{\kappa_B}} \implies \dfrac{\partial^2S}{\partial U^2}=-\dfrac{\kappa_B}{U^2}
 $$
 
 Assim, com é possível condensar os resultados na forma
 
 $$
-\begin{matrix} \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U} & para \ \ \nu \gg 0 \\ \dfrac{\partial^2 U}{\partial U^2}=-\dfrac{\kappa_B}{U^2} & \nu \to 0 \end{matrix}
+\begin{matrix} \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U} & para \ \ \nu \gg 0 \\ \\ \dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U^2} & \nu \to 0 \end{matrix}
 $$
 
 Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck fez como palpite que a segunda derivada fosse expressa por meio da expressão
@@ -151,7 +163,7 @@ Onde $$h=\kappa_B \beta = 6{,}628\times10^{-34}~ J\cdot s$$ .
 Uma vez com a expressão adequada para segunda derivada da entropia, foi possível rederivar a expressão correta da energia dos osciladores harmônicos responsáveis por irradiar radiação de corpo negro. Integrando a equação em respeito a U, temos
 
 $$
-\dfrac{dS}{dU}=-\kappa_B \int{\dfrac{dU}{U\left(h\nu+U\right)}}=-\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{U}}+\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{h\nu+U}}=\dfrac{\kappa_B}{h\nu}\left[\ln{\left(1+\dfrac{U}{h\nu}\right)}-\ln{\left(\dfrac{U}{h \nu}\right)}\right]
+\begin{matrix} \dfrac{dS}{dU}=-\kappa_B \int{\dfrac{dU}{U\left(h\nu+U\right)}} =-\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{U}}+\dfrac{\kappa_B}{h\nu}\int{\dfrac{dU}{h\nu+U}} \\ \\ =\dfrac{\kappa_B}{h\nu}\left[\ln{\left(1+\frac{U}{h\nu}\right)}-\ln{\left(\frac{U}{h \nu}\right)}\right] \end{matrix}
 $$
 
 mas $$\frac{dS}{dU}=\frac{1}{T}$$ , logo
