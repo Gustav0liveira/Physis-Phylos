@@ -20,6 +20,10 @@
 * [Magnetostática](eletromagnetismo/magnetostatica.md)
 * [Eletrodinâmica](eletromagnetismo/eletrodinamica.md)
 
+## Mecânica Clássica
+
+* [Untitled](mecanica-classica/untitled.md)
+
 ## Filosofia da Ciência
 
 * [O que é a ciência?](filosofia-da-ciencia/o-que-e-a-ciencia.md)
