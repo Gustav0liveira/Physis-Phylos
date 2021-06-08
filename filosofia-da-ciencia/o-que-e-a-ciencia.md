@@ -41,7 +41,7 @@ A teoria é capaz de expandir o conteúdo de um programa de pesquisa quando depa
 
 A teoria não deve multiplicar entes não observáveis 
 
-###  ****
+## **Outros** 
 
 **Valores Epistêmicos Mínimos: Adequação Empírica & Consistência Interna**
 
