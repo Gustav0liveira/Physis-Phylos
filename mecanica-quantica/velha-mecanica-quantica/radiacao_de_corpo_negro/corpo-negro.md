@@ -93,7 +93,9 @@ Outra relação quantitativa a respeito da radiação de um corpo negro foi prim
 {% hint style="success" %}
 O comprimento de onda máximo para curva da distribuição espectral da emissão de um corpo negro é inversamente proporcional a sua temperatura
 
-$$\lambda_{max}=\dfrac{b}{T} \ \ \text{com} \ \ b=2{,}897\times10^{-3}mK$$
+$$\lambda_{max}=\dfrac{b}{T}$$
+
+com $$b=2{,}897\times10^{-3}mK$$
 {% endhint %}
 
 ![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens_law.svg)
@@ -204,9 +206,17 @@ Que é a expressão desejada para o deslocamento de Wien. Como esperado, a const
 
 Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
 
+{% tabs %}
+{% tab title="1 - Fórmula" %}
 $$
 \nu^2=\left(\frac{c}{2L}\right)^2\left(l^2+m^2+n^2\right)=\left(\frac{c}{2L}\right)^2p^2
 $$
+{% endtab %}
+
+{% tab title="2 - Demonstração \(Clique Aqui\)" %}
+Seja
+{% endtab %}
+{% endtabs %}
 
 Logo, encontremos o número de modos normais de oscilação contando o número de pontos no espaço de $$p$$ num intervalo de frequências de $$\nu$$á $$\nu+d\nu$$na forma
 
