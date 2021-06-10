@@ -19,6 +19,7 @@
 * [Eletroestática](eletromagnetismo/untitled.md)
 * [Magnetostática](eletromagnetismo/magnetostatica.md)
 * [Eletrodinâmica](eletromagnetismo/eletrodinamica.md)
+* [Radiação](eletromagnetismo/radiacao.md)
 
 ## Mecânica Clássica
 
