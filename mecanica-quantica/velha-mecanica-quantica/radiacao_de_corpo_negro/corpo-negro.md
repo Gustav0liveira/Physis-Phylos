@@ -20,15 +20,6 @@ Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de consid
 
 Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por na forma:
 
-$$
-\begin{align} &\vec{F}=m\vec{a} \\
-&dp=\vec{F}dt\\
-\end{align}
-
-\begin{matrix} &\vec{F}=m\vec{a} \\
-&dp=\vec{F}dt\\\end{matrix}
-$$
-
 {% tabs %}
 {% tab title="1 - Fórmula" %}
                                                                          $$\large{u=cp_v}$$ 
@@ -38,18 +29,24 @@ $$
 Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(de lados $$L$$\) de paredes metálicas \(reflexivas\), devido a ausência de cargas e correntes elétricas no seu interior, as equações de Maxwell tomam a forma
 
 $$
-\begin{matrix} (i)\ \nabla \cdot\vec{E}=0 \ & \ (iii)\ \nabla \times\vec{E}= -\dfrac{\partial \vec{B}}{\partial t} \\ (ii)\ \nabla \cdot\vec{B}=0 \ &\ (iv)\ \nabla \times\vec{B}=\mu_0\epsilon_0\dfrac{\partial \vec{E}}{\partial t}\end{matrix}
+\begin{matrix} (i)\ \mathbf{\nabla} \cdot\mathbf{E}=0 \ & \ (iii)\ \mathbf{\nabla} \times\mathbf{E}= -\dfrac{\partial \mathbf{B}}{\partial t} \\ (ii)\ \mathbf{\nabla} \cdot\mathbf{B}=0 \ &\ (iv)\ \mathbf{\nabla} \times\mathbf{B}=\mu_0\epsilon_0\dfrac{\partial \mathbf{E}}{\partial t}\end{matrix}
 $$
 
-Aplicando o rotacional em $$(iii)$$e $$(iv)$$  e desacoplando-as é possível reduzir as equações acima em
+Aplicando o rotacional em $$(iii)$$e em $$(iv)$$
 
 $$
-\begin{matrix} (i)\ \nabla \cdot\vec{E}=0 \ & \ (iii)\ \nabla^2 \vec{E}= -\frac{1}{c}\dfrac{\partial^2 \vec{E}}{\partial t^2} \\ (ii)\ \nabla \cdot\vec{B}=0 \ &\ (iv)\ \nabla^2 \vec{B}= -\frac{1}{c}\dfrac{\partial^2 \vec{B}}{\partial t^2} \end{matrix}
+\begin{matrix}
+\mathbf{\nabla} \times\mathbf{\nabla}\times \mathbf{E} =  \mathbf{\nabla} \left(\mathbf{\nabla} \cdot \mathbf{E}\right)-\nabla^2\mathbf{E}=\mathbf{\nabla}\times\left(-\dfrac{\partial \mathbf{B}}{\partial t}\right)\\ 
+ \mathbf{\nabla} \times\mathbf{\nabla}\times \mathbf{B} =  \mathbf{\nabla} \left(\mathbf{\nabla} \cdot \mathbf{B}\right)-\nabla^2\mathbf{B}=\mathbf{\nabla}\times\left(\mu_0\epsilon_0\dfrac{\partial \mathbf{E}}{\partial t}\right) \\
+
+\end{matrix}
 $$
 
 que são equações de ondas, que satisfazem
 {% endtab %}
 {% endtabs %}
+
+
 
 temos que
 
