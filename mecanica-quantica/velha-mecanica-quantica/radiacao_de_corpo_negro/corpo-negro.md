@@ -211,6 +211,8 @@ Tratando a radiação de corpo negro como um campo eletromagnético confinado nu
 $$
 \nu^2=\left(\frac{c}{2L}\right)^2\left(l^2+m^2+n^2\right)=\left(\frac{c}{2L}\right)^2p^2
 $$
+
+Com $$l,m,n=1,2,3,...,.$$
 {% endtab %}
 
 {% tab title="2 - Demonstração \(Clique Aqui\)" %}
