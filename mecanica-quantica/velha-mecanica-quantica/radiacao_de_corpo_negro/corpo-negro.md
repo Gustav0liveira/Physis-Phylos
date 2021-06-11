@@ -24,6 +24,9 @@ $$
 \begin{align} &\vec{F}=m\vec{a} \\
 &dp=\vec{F}dt\\
 \end{align}
+
+\begin{matrix} &\vec{F}=m\vec{a} \\
+&dp=\vec{F}dt\\\end{matrix}
 $$
 
 {% tabs %}
