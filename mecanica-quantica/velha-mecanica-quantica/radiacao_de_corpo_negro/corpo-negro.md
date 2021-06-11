@@ -11,14 +11,14 @@ A primeira conjectura quantitativa sobre os corpos negros foi feita em 1879 por 
 {% hint style="success" %}
 A potencia por unidade de área \(densidade de energia\) $$u(T)$$ emitida por um corpo negro é proporcional a quarta potência da sua temperatura 
 
-                                                                     $$\large{u(T)=\sigma T^4}$$ 
+                                                                     $$\large{u(T)=\sigma T^4}.$$ 
 
-onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$ e $$j(T)$$ é a potencia radiada por metro quadrado a uma dada temperatura $$T$$.
+Onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$.
 {% endhint %}
 
 Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de considerações termodinâmicas da radiação eletromagnética contida num caixa fechada com paredes reflexivas.
 
-Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por meio da relação \([ver apêndice](apendices.md#densidades-de-energia-e-momento-eletromagnetico)\).
+Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por na forma:
 
 {% tabs %}
 {% tab title="1 - Fórmula" %}
@@ -204,7 +204,7 @@ Que é a expressão desejada para o deslocamento de Wien. Como esperado, a const
 
 ### Contando os Modos Normais de Oscilação
 
-Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar \([ver apêndice](apendices.md#onda-eletromagnetica-numa-cavidade)\) que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
+Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
 
 {% tabs %}
 {% tab title="1 - Fórmula" %}
