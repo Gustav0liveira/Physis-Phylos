@@ -20,6 +20,12 @@ Tal expressão foi mais tarde deduzida por _Ludwig Boltzmann_ através de consid
 
 Imaginando um série de ondas planas monocromáticas contidas no interior do recipientes, é possível mostrar que a densidade de energia eletromagnética $$u$$ e a densidade de momento eletromagnético $$p_v$$ estão relacionados por na forma:
 
+$$
+\begin{align} &\vec{F}=m\vec{a} \\
+&dp=\vec{F}dt\\
+\end{align}
+$$
+
 {% tabs %}
 {% tab title="1 - Fórmula" %}
                                                                          $$\large{u=cp_v}$$ 
