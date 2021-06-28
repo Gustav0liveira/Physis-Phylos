@@ -2,11 +2,21 @@
 
 ## **Introdução**
 
-A ciência é um empreendimento coletivo humano na forma de um projeto cognitivo, que tem como objetivo explicar e prever fenômenos naturais por meio de teorias científicas, um conjunto interligado de postulados, teoremas apoiados em .
+A ciência é um empreendimento coletivo humano na forma de um projeto cognitivo, que tem como objetivo explicar e prever fenômenos naturais por meio de teorias científicas.
+
+## Teorias Científicas
+
+Uma teoria científica pode ser entendida como um sistema sistematizador \(organizacional\) de uma classe interligada de modelos. Modelos são idealizações que abstraem um sistema real na forma de uma estrutura representativa, acomodando os resultados empíricos e produzindo narrativas que os explicam.
+
+Essa rede de modelos é composto por elementos centrais com maior numero interligações que constituem o formalismo da teoria e elementos periféricos menos interligados. 
+
+O objetivo de um cientística é o de acomodar os dados empíricos disponíveis na teoria protegendo seu formalismo de uma possível refutação por meio de modificações das suas partes periféricas.
+
+
 
 ## Valores Epistêmicos
 
-Apesar de não existir um método científico universal, os praticantes das ciências são guiados intersubjetivamente por meio de valores que prescrevem os critérios para a escolha entre teorias.
+Apesar de não existir um método científico universal, os praticantes das ciências são guiados inter subjetivamente por meio de valores que prescrevem os critérios para a escolha entre teorias.
 
 ### Precisão Empírica/Adequação Empírica \(Accuracy\)
 

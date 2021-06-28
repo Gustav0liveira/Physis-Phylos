@@ -14,7 +14,7 @@ Talvez a melhor exemplificação de um corpo negro seja a de um objeto material 
 
 A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata destes últimos, sob a ação de uma força restauradora $$-m\omega_0^2 x$$ \(em primeira ordem\) devido as forças internas de coesão.
 
-Aquecendo a configuração a uma temperatura constante $$T$$ , conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa $$F_{dis}=-\frac{2e^2}{3c^3} \dot{a}$$ também chamada de força de Abraham-Lorentz, que é a força experienciada por partículas pontuais eletricamente carregadas quando aceleradas.
+Aquecendo a configuração a uma temperatura constante $$T$$ , conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa $$F_{dis}=-\frac{2e^2}{3c^3} \dot{a}$$ também chamada de força de Abraham-Lorentz, que é a força de recúo experienciada por partículas pontuais eletricamente carregadas quando aceleradas.
 
 Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $$\omega $$ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica $$eE\cos(\omega t).$$Tais elétrons, por estarem sob ação de uma força restauradora de frequência natural de oscilação $$\omega_0$$, quando forçados a oscilar na frequência das ondas planas $$\omega$$ devem responder com a emissão de radiação na mesma frequência, e portanto, para $$x=A\cos \omega t, \implies a=-\omega^2x,$$ o termo dissipativo pode assim ser simplificado para a forma:
 
@@ -141,13 +141,13 @@ $$
 Assim, com é possível condensar os resultados na forma
 
 $$
-\begin{matrix} \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U} & para \ \ \nu \gg 0 \\ \\ \dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U^2} & \nu \to 0 \end{matrix}
+\begin{matrix} \dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U} & \text{para} \ \ \nu \gg 0 \\ \\ \dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U^2} & \nu \to 0 \end{matrix}
 $$
 
-Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck fez como palpite que a segunda derivada fosse expressa por meio da expressão
+Para acomodar esses resultados limites na descrição de uma única entropia mais geral, Planck fez como palpite ad hoc, que a segunda derivada da entropia dos osciladores deveriam ser expressas por meio da expressão,
 
 $$
-\dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U\left(h\nu+U\right)}
+\dfrac{\partial^2 S}{\partial U^2}=-\dfrac{\kappa_B}{U\left(h\nu+U\right)}.
 $$
 
 Onde $$h=\kappa_B \beta = 6{,}628\times10^{-34}~ J\cdot s$$ .
