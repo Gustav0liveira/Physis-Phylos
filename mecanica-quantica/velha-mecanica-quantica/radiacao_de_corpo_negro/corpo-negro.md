@@ -110,6 +110,8 @@ com $$b=2{,}897\times10^{-3}mK$$
 
 A partir da [Lei de Stefan/Boltzmann ](corpo-negro.md#lei-de-stefan-boltzmann)onde $$u(T)=\sigma T^4$$ e das considerações a respeito da pressão exercida pelo campo eletromagnético no seu interior da cavidade deduzida naquela discussão, dado por $$P=\frac{1}{3}u$$ , tem-se que
 
+ $$3P=u(T)=\sigma T^4$$ 
+
 $$
 3P=u(T)=\sigma T^4
 $$
