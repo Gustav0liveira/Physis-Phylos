@@ -8,12 +8,8 @@
   * [Introdução](mecanica-quantica/velha-mecanica-quantica/introducao.md)
   * [Radiação de Corpo Negro](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/README.md)
     * [Corpo Negro](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/corpo-negro.md)
-    * [Untitled](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/untitled.md)
     * [Lei de Plack](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/lei-de-plack.md)
-    * [Efeito Fotoelétrico e o Quanta da Luz](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/efeito-fotoeletrico-e-o-quanta-da-luz.md)
     * [Apêndices](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/apendices.md)
-* [Mecânica Ondulatória](mecanica-quantica/mecanica-ondulatoria/README.md)
-  * [Untitled](mecanica-quantica/mecanica-ondulatoria/untitled.md)
 * [Teoria Quântica de Campos](mecanica-quantica/teoria-quantica-de-campos.md)
 * [Hawking Radiation](mecanica-quantica/hawking-radiation.md)
 
