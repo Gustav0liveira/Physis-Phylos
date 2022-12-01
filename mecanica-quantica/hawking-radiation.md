@@ -34,7 +34,7 @@ $$
 \frac{fe^{-i\omega t}}{\sqrt{2\pi \omega}r^2} \left\{\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin\theta\frac{\partial Y}{\partial \theta}\right)+\frac{1}{\sin^2\theta}\frac{\partial^2Y}{\partial \varphi^2} \right. \\ \left.+\left[\frac{1}{f}\frac{d}{dr}\left(r²\left(1-\frac{2M}{r}\right)\frac{df}{dr}\right)+\left(\frac{\omega^2}{1-\frac{2M}{r}}+m²\right)r^2\right]Y\right\}=0.
 $$
 
-Which satifies the spherical harmonic EDP if
+Which satisfies the spherical harmonic EDP if and only if
 
 $$
 \left[\frac{1}{f}\frac{d}{dr}\left(r²\left(1-\frac{2M}{r}\right)\frac{df}{dr}\right)+\left(\frac{\omega^2}{1-\frac{2M}{r}}+m²\right)r^2\right]=l(l+1)
@@ -46,4 +46,19 @@ $$
 \frac{1}{r^2}\frac{d}{dr^{*}}\left(r^2\frac{df}{dr^{*}}\right)+\eta^2(r)f-\frac{l(l+1)}{r^2}\left(1-\frac{2M}{r}\right)f =0.
 $$
 
-where $$\partial r/\partial r^{*}=(1-\frac{2M}{r})$$ in the Tortoise coordinates and $$\eta(r)=\sqrt{\omega^2+\left(1-2M/r\right)m^2}$$
+where $$\partial r/\partial r^{*}=(1-\frac{2M}{r})$$ in the Tortoise coordinates and $$\bar{\eta}(r)=\sqrt{\omega^2+\left(1-2M/r\right)m^2}$$
+
+For $$r\to \infty$$, we have approximate solutions for the past horizon of the black hole given by $$f^{(-)}(r)$$&#x20;
+
+$$
+\frac{d^2f^{(-)}}{dr^{*2}}+\frac{2}{r}\left(1-\frac{2M}{r}\right)\frac{df^{(-)}}{dr^{*}}+\bar{\eta}^2f^{(-)}+\frac{l(l+1)}{r^2}\left(1-\frac{2M}{r}\right)f\approx \frac{d^2f^{(-)}}{dr^{*2}}+\eta^2f^{(-)}=0
+$$
+
+such that $$f_{l\eta}^{(-)}(r)=e^{i\eta r^{*}}+A_{l\eta}^{(-)}e^{-i\eta r^{*}}$$ where $$\eta =\sqrt{\omega^2+m^2}$$. So that the solutions for the past horizon can be expressed by
+
+$$
+\phi^{(-)}=\frac{1}{\sqrt{2\pi\eta}}\left(e^{-i\eta u}+A_{\eta l}^{(-)}e^{-i\eta v}\right)Y_{lm}(\theta,\varphi)
+$$
+
+where $$u=  t-r^{*}$$ and $$v=t+ r^{*}$$.
+
