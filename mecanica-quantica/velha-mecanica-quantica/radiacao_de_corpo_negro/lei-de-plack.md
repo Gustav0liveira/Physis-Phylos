@@ -12,11 +12,11 @@ description: >-
 
 Talvez a melhor exemplificação de um corpo negro seja a de um objeto material onde em seu interior exista uma cavidade de paredes foscas com um pequeno orifício conectando ao exterior.
 
-A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata destes últimos, sob a ação de uma força restauradora $$-m\omega_0^2 x$$ \(em primeira ordem\) devido as forças internas de coesão.
+A parede interna como um sistema macroscópico, é composto a partir de um grande número de átomos, todos dispostos de forma que seus constituintes internos positivamente carregados no núcleo permaneçam relativamente fixos na estrutura molecular, enquanto seus elétrons, negativamente carregados, se concentrem na vizinhança imediata destes últimos, sob a ação de uma força restauradora $$-m\omega_0^2 x$$ (em primeira ordem) devido as forças internas de coesão.
 
-Aquecendo a configuração a uma temperatura constante $$T$$ , conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta \(como cargas elétricas aceleradas\), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa $$F_{dis}=-\frac{2e^2}{3c^3} \dot{a}$$ também chamada de força de Abraham-Lorentz, que é a força de recúo experienciada por partículas pontuais eletricamente carregadas quando aceleradas.
+Aquecendo a configuração a uma temperatura constante $$T$$ , conforme é transferido energia na forma de calor para parede e a agitação molecular é incrementada na forma de vibração, os seus átomos, devem ser excitados e em resposta (como cargas elétricas aceleradas), emitir radiação eletromagnética, preenchendo assim cavidade interna com ondas eletromagnéticas. Essa emissão de radiação e consequente perca de energia dos osciladores pode ser levada em conta por uma força dissipativa $$F_{dis}=-\frac{2e^2}{3c^3} \dot{a}$$ também chamada de força de Abraham-Lorentz, que é a força de recúo experienciada por partículas pontuais eletricamente carregadas quando aceleradas.
 
-Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $$\omega $$ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica $$eE\cos(\omega t).$$Tais elétrons, por estarem sob ação de uma força restauradora de frequência natural de oscilação $$\omega_0$$, quando forçados a oscilar na frequência das ondas planas $$\omega$$ devem responder com a emissão de radiação na mesma frequência, e portanto, para $$x=A\cos \omega t, \implies a=-\omega^2x,$$ o termo dissipativo pode assim ser simplificado para a forma:
+Tal radiação eletromagnética no interior da cavidade, caracterizada por superposições de ondas planas de várias frequências $$\omega$$ e cuja a intensidade do campo elétrico varia harmonicamente com o tempo, deve mediar nos elétrons dos átomos da parede uma força elétrica periódica $$eE\cos(\omega t).$$Tais elétrons, por estarem sob ação de uma força restauradora de frequência natural de oscilação $$\omega_0$$, quando forçados a oscilar na frequência das ondas planas $$\omega$$ devem responder com a emissão de radiação na mesma frequência, e portanto, para $$x=A\cos \omega t, \implies a=-\omega^2x,$$ o termo dissipativo pode assim ser simplificado para a forma:
 
 $$
 F_{dis}=-\frac{2e^2}{3c^3}\left(-\omega^2 \dot{x}\right)=\frac{2e^2}{3c^3}\omega^2\dot{x}
@@ -50,13 +50,13 @@ $$
 u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2\left((\omega_0^2-\omega^2)^2-\left(\frac{\omega\gamma}{m}\right)^2\right)} =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{m^2(\omega_0^2-\omega^2)^2-\left(\omega\gamma\right)^2}
 $$
 
-Para valores de frequência $$\omega \approx \omega_0$$ , temos que $$\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$$ 
+Para valores de frequência $$\omega \approx \omega_0$$ , temos que $$\omega_0^2-\omega^2 = (\omega_0 - \omega)(\omega_0 + \omega) \approx 2 \omega_0(\omega_0 - \omega)$$&#x20;
 
 $$
 u =\frac{1}{2}m\omega_0^2\frac{e^2E^2}{4m^2\omega_0^2(\omega_0-\omega)^2-\left(\omega_0\gamma\right)^2} =\frac{1}{8m}\frac{e^2E^2}{(\omega_0-\omega)^2-\left(\frac{\gamma}{2m}\right)^2}.
 $$
 
-Mas como discutido anteriormente, no interior da cavidade temos uma superposição de ondas planas de todas as frequências possíveis, de forma para encontrar a expressão para energia dos pequenos osciladores da parede, é necessário realizar uma soma contínua de u em todos os valores possíveis de $$\omega$$ 
+Mas como discutido anteriormente, no interior da cavidade temos uma superposição de ondas planas de todas as frequências possíveis, de forma para encontrar a expressão para energia dos pequenos osciladores da parede, é necessário realizar uma soma contínua de u em todos os valores possíveis de $$\omega$$&#x20;
 
 $$u_{total} =\int_{-\infty}^{\infty}$$
 
@@ -90,7 +90,7 @@ $$
 u(\nu,T)=\alpha \nu^3 \exp{\dfrac{\beta \nu}{T}}.
 $$
 
-Com a expressão de Wien, Planck pode encontrar a expressão para a energia dos osciladores como 
+Com a expressão de Wien, Planck pode encontrar a expressão para a energia dos osciladores como&#x20;
 
 $$
 U(\nu,t)=\dfrac{\alpha c^3}{8\pi}\nu \exp{\left(-\dfrac{\beta \nu}{T}\right)}
@@ -100,10 +100,10 @@ Que são os ingredientes necessários para obter a expressão para a entropia do
 
 {% tabs %}
 {% tab title="1 - Fórmula" %}
-                                                                       $$\large{\dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}}.$$ 
+&#x20;                                                                      $$\large{\dfrac{\partial^2S}{\partial U^2}=-\dfrac{1}{\beta \nu U}}.$$&#x20;
 {% endtab %}
 
-{% tab title="2 - Demonstração \(Clique Aqui\)" %}
+{% tab title="2 - Demonstração (Clique Aqui)" %}
 Seja
 
 $$
@@ -169,4 +169,3 @@ Permitindo usar $$U(T)$$ na forma
 $$
 U(T)=\dfrac{h\nu}{\exp{\left(\frac{h\nu}{\kappa_B T}\right)}-1}
 $$
-

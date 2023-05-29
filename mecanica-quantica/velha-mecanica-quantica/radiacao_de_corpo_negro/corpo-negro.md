@@ -9,9 +9,9 @@ description: Porque objetos quando aquecidos emitem luz de diferentes cores?
 A primeira conjectura quantitativa sobre os corpos negros foi feita em 1879 por _Joseph Stefan_, na forma
 
 {% hint style="success" %}
-A potencia por unidade de área \(densidade de energia\) $$u(T)$$ emitida por um corpo negro é proporcional a quarta potência da sua temperatura 
+A potencia por unidade de área (densidade de energia) $$u(T)$$ emitida por um corpo negro é proporcional a quarta potência da sua temperatura&#x20;
 
-                                                                     $$\large{u(T)=\sigma T^4}.$$ 
+&#x20;                                                                    $$\large{u(T)=\sigma T^4}.$$&#x20;
 
 Onde $$\sigma=5{,}67\times10^{-8}\frac{W}{m^2K^4}$$.
 {% endhint %}
@@ -22,11 +22,11 @@ Imaginando um série de ondas planas monocromáticas contidas no interior do rec
 
 {% tabs %}
 {% tab title="1 - Fórmula" %}
-                                                                         $$\large{u=cp_v}$$ 
+&#x20;                                                                        $$\large{u=cp_v}$$&#x20;
 {% endtab %}
 
-{% tab title="2 - Demonstração \(Clique Aqui\)" %}
-Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(de lados $$L$$\) de paredes metálicas \(reflexivas\), devido a ausência de cargas e correntes elétricas no seu interior, as equações de Maxwell tomam a forma
+{% tab title="2 - Demonstração (Clique Aqui)" %}
+Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica (de lados $$L$$) de paredes metálicas (reflexivas), devido a ausência de cargas e correntes elétricas no seu interior, as equações de Maxwell tomam a forma
 
 $$
 \begin{matrix} (i)\ \mathbf{\nabla} \cdot\mathbf{E}=0 \ & \ (iii)\ \mathbf{\nabla} \times\mathbf{E}= -\dfrac{\partial \mathbf{B}}{\partial t} \\ (ii)\ \mathbf{\nabla} \cdot\mathbf{B}=0 \ &\ (iv)\ \mathbf{\nabla} \times\mathbf{B}=\mu_0\epsilon_0\dfrac{\partial \mathbf{E}}{\partial t}\end{matrix}
@@ -104,25 +104,25 @@ $$\lambda_{max}=\dfrac{b}{T}$$
 com $$b=2{,}897\times10^{-3}mK$$
 {% endhint %}
 
-![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens_law.svg)
+![Curva da densidade de energia espectral por comprimento de onda em diversas temperaturas.](../../../.gitbook/assets/wiens\_law.svg)
 
 ### Invariantes adiabáticos
 
 A partir da [Lei de Stefan/Boltzmann ](corpo-negro.md#lei-de-stefan-boltzmann)onde $$u(T)=\sigma T^4$$ e das considerações a respeito da pressão exercida pelo campo eletromagnético no seu interior da cavidade deduzida naquela discussão, dado por $$P=\frac{1}{3}u$$ , tem-se que
 
- $$3P=u(T)=\sigma T^4$$ 
+&#x20;$$3P=u(T)=\sigma T^4$$&#x20;
 
 $$
 3P=u(T)=\sigma T^4
 $$
 
-Para um variação isovolumétrica da temperatura \(e usando a relação de Maxwell $$\left(\frac{\partial P}{\partial T}\right)_V=\left(\frac{\partial S}{\partial V}\right)_T$$ \)
+Para um variação isovolumétrica da temperatura (e usando a relação de Maxwell $$\left(\frac{\partial P}{\partial T}\right)_V=\left(\frac{\partial S}{\partial V}\right)_T$$ )
 
 $$
 3\left(\dfrac{\partial P}{\partial T}\right)_V=3\left(\dfrac{\partial S}{\partial V}\right)_T=4\sigma T^3
 $$
 
-Logo, deduz-se que $$dS=d\left(\frac{4}{3}\sigma T^3 V\right)=4\sigma T^2 VdT+\frac{4}{3}\sigma T^3dV$$ , de forma que, para um processo adiabático \( $$dS=0$$ \), obtém-se
+Logo, deduz-se que $$dS=d\left(\frac{4}{3}\sigma T^3 V\right)=4\sigma T^2 VdT+\frac{4}{3}\sigma T^3dV$$ , de forma que, para um processo adiabático ( $$dS=0$$ ), obtém-se
 
 $$
 4\sigma T^2\left(VdT+\frac{1}{3}TdV\right)=0 \implies\frac{dT}{T}=-\frac{1}{3}\frac{dV}{V}
@@ -136,7 +136,7 @@ $$
 
 Que é o que chamamos de uma invariante adiabática, uma quantidade que mantém-se inalterada ao longo do processo que assumimos ser adiabático.
 
-Acontece, que da análise da radiação contida em uma cavidade, verifica-se que \([Apêndice](apendices.md#onda-eletromagnetica-numa-cavidade) e [Análise da Lei de Rayleigh-Jeans](corpo-negro.md#lei-de-rayleigh-jeans)\) existe uma restrição dos possíveis valores das frequências
+Acontece, que da análise da radiação contida em uma cavidade, verifica-se que ([Apêndice](apendices.md#onda-eletromagnetica-numa-cavidade) e [Análise da Lei de Rayleigh-Jeans](corpo-negro.md#lei-de-rayleigh-jeans)) existe uma restrição dos possíveis valores das frequências
 
 $$
 \left(\frac{2\nu L}{c}\right)^2=\left(l^2+m^2+n^2\right) \ \ \text{com}  \ \ l,m,n=1,2,3,...
@@ -162,7 +162,7 @@ $$
 
 Obtemos um terceiro invariante adiabático: $$\frac{\nu}{T}=c=cte$$ .
 
-### Forma funcional de u\(T,v\)
+### Forma funcional de u(T,v)
 
 Seja
 
@@ -212,7 +212,7 @@ Que é a expressão desejada para o deslocamento de Wien. Como esperado, a const
 
 ### Contando os Modos Normais de Oscilação
 
-Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica \(lados $$L$$\) de paredes metálicas \(reflexivas\), é possível mostrar que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
+Tratando a radiação de corpo negro como um campo eletromagnético confinado numa cavidade cúbica (lados $$L$$) de paredes metálicas (reflexivas), é possível mostrar que a radiação deve consistir em ondas estacionárias com um espectro discreto para os possíveis valores de frequência
 
 {% tabs %}
 {% tab title="1 - Fórmula" %}
@@ -223,7 +223,7 @@ $$
 Com $$l,m,n=1,2,3,...,.$$
 {% endtab %}
 
-{% tab title="2 - Demonstração \(Clique Aqui\)" %}
+{% tab title="2 - Demonstração (Clique Aqui)" %}
 Seja
 {% endtab %}
 {% endtabs %}
@@ -256,7 +256,7 @@ $$\left<E\right>=\int E\rho(E,T)dqdp=\dfrac{\int E e^{-\frac{E}{k_B T}}dqdp}{\in
 onde $$\int \left(\alpha p^2\right) e^{-\frac{\alpha p^2}{k_B T}}dqdp=\frac{1}{2}k_B T\int e^{-\frac{\alpha p^2}{k_B T}}dqdp$$
 {% endhint %}
 
-Como é possível mostrar, a energia por modo de oscilação para o campo eletromagnético enclausurado na cavidade toma a forma $$E=\frac{1}{2m}P^2+\frac{1}{2}kQ^2$$ \([ver apêndice](apendices.md#energia-do-campo-eletromagnetico-em-uma-cavidade)\) toma a forma que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
+Como é possível mostrar, a energia por modo de oscilação para o campo eletromagnético enclausurado na cavidade toma a forma $$E=\frac{1}{2m}P^2+\frac{1}{2}kQ^2$$ ([ver apêndice](apendices.md#energia-do-campo-eletromagnetico-em-uma-cavidade)) toma a forma que cada modo normal de oscilação do campo eletromagnético deve ter uma energia média
 
 $$
 \left<E\right>=\left<\frac{1}{2m}P^2\right>+\left<\frac{1}{2}kQ^2\right>=k_BT
@@ -271,4 +271,3 @@ $$
 Que é o resultado clássico para a distribuição espectral da densidade de energia.
 
 ### A Catástrofe do Ultravioleta
-

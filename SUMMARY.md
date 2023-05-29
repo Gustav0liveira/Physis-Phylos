@@ -1,6 +1,10 @@
 # Table of contents
 
-* [Physica](README.md)
+* [Toda a Física](README.md)
+
+## Mecânica Analítica
+
+* [Formalismo Lagrangeano](mecanica-analitica/formalismo-lagrangeano.md)
 
 ## Mecânica Quântica
 
@@ -12,17 +16,6 @@
     * [Apêndices](mecanica-quantica/velha-mecanica-quantica/radiacao\_de\_corpo\_negro/apendices.md)
 * [Teoria Quântica de Campos](mecanica-quantica/teoria-quantica-de-campos.md)
 * [Hawking Radiation](mecanica-quantica/hawking-radiation.md)
-
-## Eletromagnetismo
-
-* [Eletroestática](eletromagnetismo/untitled.md)
-* [Magnetostática](eletromagnetismo/magnetostatica.md)
-* [Eletrodinâmica](eletromagnetismo/eletrodinamica.md)
-* [Radiação](eletromagnetismo/radiacao.md)
-
-## Mecânica Clássica
-
-* [Untitled](mecanica-classica/untitled.md)
 
 ## Filosofia da Ciência
 
