@@ -5,6 +5,8 @@
 ## Mecânica Analítica
 
 * [Formalismo Lagrangeano](mecanica-analitica/formalismo-lagrangeano.md)
+* [Espaço de configurações e a equação de La](mecanica-analitica/espaco-de-configuracoes-e-a-equacao-de-la.md)
+* [Page 1](mecanica-analitica/page-1.md)
 
 ## Mecânica Quântica
 
